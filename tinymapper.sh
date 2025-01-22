@@ -310,8 +310,8 @@ if [ -f "/tinyPortMapper/ip_keepalive.sh" -a -f "/tinyPortMapper/domain_keepaliv
     echo -e "${Green}检测到保活脚本已存在，跳过下载步骤！${Font}"
 else
     echo -e "${Green}正在下载保活脚本！${Font}"
-    wget -O /tinyPortMapper/ip_keepalive.sh https://raw.githubusercontent.com/lmc999/TinyPortMapper_KeepAlive/master/ip_keepalive.sh
-    wget -O /tinyPortMapper/domain_keepalive.sh https://raw.githubusercontent.com/lmc999/TinyPortMapper_KeepAlive/master/domain_keepalive.sh
+    wget -O /tinyPortMapper/ip_keepalive.sh https://gh-proxy.potato.bj.cn/https://raw.githubusercontent.com/lmc999/TinyPortMapper_KeepAlive/master/ip_keepalive.sh
+    wget -O /tinyPortMapper/domain_keepalive.sh https://gh-proxy.potato.bj.cn/https://raw.githubusercontent.com/lmc999/TinyPortMapper_KeepAlive/master/domain_keepalive.sh
 	
 fi
 }
